@@ -42,10 +42,10 @@
 		height: 	"700px",
 		hash_bookmark: true,
 		source: 	'https://docs.google.com/spreadsheet/pub?key=0AkkHH22T5QEIdFFWSndTVG5WaEtHSXBZWjJ1emNRWEE&output=html',
-		font: 		'Bevan-PotanoSans',			//OPTIONAL FONTS
-		maptype: 	'watercolor',				//OPTIONAL MAP STYLE
-		css: 		'css/dark.css',		//OPTIONAL
-		js: 		'js/timeline.js'		//OPTIONAL
+		font: 		'Bevan-PotanoSans',			
+		maptype: 	'watercolor',			
+		css: 		'css/dark.css',	
+		js: 		'js/timeline.js'	
 		
 	}
 	
