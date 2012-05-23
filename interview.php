@@ -79,7 +79,8 @@
 			
 		</div>
 				
-
+			
+      <hr>
 
 <?
 	include 'footer.php';

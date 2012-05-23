@@ -49,15 +49,14 @@ box-shadow:3px 3px 3px rgba(0, 0, 0, 0.5);
 background: -moz-linear-gradient(19% 65% 90deg,	#46992B, #5ECC39, #5ECC39 51%);
 
 background: -webkit-gradient(linear, 0% 45%, 0% 60%, from(#46992B), to(#5ECC39));
-width:280px;
-height:280px;
+height:50px;
+width:170px;
 color:#f0f0f0;
-float:left;
 font-family:arial,helvetica,sans-serif;
 font-size:14px;
 font-weight:bold;
-padding:50px 50px;
-margin:50px;
+padding:10px 10px;
+margin:10px;
 text-shadow:0 1px 1px rgba(0, 0, 0, 0.5);
 border: 1px solid #267ed4;
 }
