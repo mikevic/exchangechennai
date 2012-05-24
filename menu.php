@@ -1,3 +1,9 @@
+<?php
+$currentFile = $_SERVER["PHP_SELF"];
+$parts = Explode('/', $currentFile);
+$current_page =  $parts[count($parts) - 1];
+?>
+
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -9,13 +15,13 @@
           <a class="brand" href="#">Exchange Chennai - AIESEC Chennai's Search Tool</a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li class="active"><a href="http://exchangechennai.in">Home</a></li>
-              <li><a href="eb.php">Contacts</a></li>
-			  <li><a href="gcdp-tn.php">GCDP TN</a></li>
-              <li><a href="gip-tn.php">GIP TN</a></li>
-			  <li><a href="gcdp-ep.php">GCDP EP</a></li>
-			  <li><a href="gip-ep.php">GIP EP</a></li>
-			  <li><a href="exchange-experience.php">Experiences Delivered</a></li>
+              <li <? if($current_page == 'index.php'){echo 'class="active"';} ?>><a href="http://exchangechennai.in">Home</a></li>
+              <li <? if($current_page == 'eb.php'){echo 'class="active"';} ?> ><a href="eb.php">Contacts</a></li>
+			  <li <? if($current_page == 'gcdp-tn.php'){echo 'class="active"';} ?>><a href="gcdp-tn.php">GCDP TN</a></li>
+              <li <? if($current_page == 'gip-tn.php'){echo 'class="active"';} ?>><a href="gip-tn.php">GIP TN</a></li>
+			  <li <? if($current_page == 'gcdp-ep.php'){echo 'class="active"';} ?>><a href="gcdp-ep.php">GCDP EP</a></li>
+			  <li <? if($current_page == 'gip-ep.php'){echo 'class="active"';} ?>><a href="gip-ep.php">GIP EP</a></li>
+			  <li <? if($current_page == 'exchange-experience.php'){echo 'class="active"';} ?>><a href="exchange-experience.php">Experiences Delivered</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
