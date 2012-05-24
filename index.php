@@ -24,6 +24,14 @@
 	 -->
 
 	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=164582900258220";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </head>
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -48,7 +56,12 @@
 	  <a href="gip-ep.php"><button class="btn btn-primary btn-large" style="width:185px">GIP EPs</button></a>
 	  <a href="exchange-experience.php"><button class="btn btn-large" style="width:185px">Experiences</button></a>
 		</div>
-      <hr>
+		 <hr>
+		<img src="img/aiesec_chennai_logo.png" height="90" align="left" style="padding:10px">
+		<div class="fb-like" data-href="https://www.facebook.com/aiesec.chennai" data-send="true" data-layout="box_count" data-width="40" data-show-faces="true" data-colorscheme="dark" data-font="trebuchet ms"></div>
+		<iframe src="//www.facebook.com/plugins/facepile.php?href=https%3A%2F%2Fwww.facebook.com%2Faiesec.chennai&amp;action&amp;size=medium&amp;max_rows=2&amp;width=300&amp;colorscheme=dark&amp;appId=187857671261596" scrolling="no" frameborder="0" style=" border:none; overflow:hidden; width:330px; height:100px; paddding:5px;" allowTransparency="true"></iframe>   
+ 
+   <hr>
 
 <?
 	include 'footer.php';
