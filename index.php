@@ -40,13 +40,13 @@
         <p>AIESEC in Chennai celebrated its 29th anniversary this year. It is one of the most established Local Committees in India and one of the most fun loving as well. With people, culture and simplicity like no other LC, Chennai is truly the place to be! 200 motivated and smart people together can do some brilliant work and that's been our belief for years. We are known for our dedication and passion and all that we have achieved previously was just a trailer for what we have in store for you.</p>
 
       </div>
-	  <div>
-	  <a href="gcdp-tn.php"><button class="bluebox">GCDP TNs</button></a>
-	  <a href="gip-tn.php"><button class="bluebox">GIP TNs</button></a>
-	  <a href="gcdp-ep.php"><button class="bluebox">GCDP EPs</button></a>
-	  <a href="gip-ep.php"><button class="bluebox">GIP EPs</button></a>
-	  <a href="eb.php"><button class="bluebox">Contacts</button></a>
-	  <a href="exchange-experience.php"><button class="bluebox">Experiences</button></a>
+	  <div id="homepage_buttons" align="center">
+	  <a href="eb.php"><button class="btn btn-inverse btn-large" style="width:185px">Contacts</button></a>
+	  <a href="gcdp-tn.php"><button class="btn btn-warning btn-large" style="width:185px">GCDP TNs</button></a>
+	  <a href="gip-tn.php"><button class="btn btn-info btn-large" style="width:185px">GIP TNs</button></a>
+	  <a href="gcdp-ep.php"><button class="btn btn-danger btn-large" style="width:185px">GCDP EPs</button></a>
+	  <a href="gip-ep.php"><button class="btn btn-primary btn-large" style="width:185px">GIP EPs</button></a>
+	  <a href="exchange-experience.php"><button class="btn btn-large" style="width:185px">Experiences</button></a>
 		</div>
       <hr>
 
