@@ -39,7 +39,7 @@
 <script type="text/javascript">
     var timeline_config = {
 		width: 		"100%",
-		height: 	"700px",
+		height: 	"700",
 		hash_bookmark: true,
 		source: 	'https://docs.google.com/spreadsheet/pub?key=0AkkHH22T5QEIdFVBdy1ILWFsX2hKd3VIM3R1R1VQSGc&output=html',
 		font: 		'Bevan-PotanoSans',			//OPTIONAL FONTS

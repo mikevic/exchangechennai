@@ -16,6 +16,7 @@
 	<link rel="stylesheet/less" href="less/style.less">
 	<link type="text/css" href="css/colorbox.css" rel="stylesheet" />
 	<script src="js/libs/less-1.3.0.min.js"></script>
+	
 	<!-- Use SimpLESS (Win/Linux/Mac) or LESS.app (Mac) to compile your .less files
 	to style.css, and replace the 2 lines above by this one:
 
@@ -23,6 +24,7 @@
 	 -->
 
 	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
 </head>
 <body>
@@ -36,37 +38,37 @@
     <div class="container">
 
 <div id="timeline-embed"></div>
-<script type="text/javascript">
-    var timeline_config = {
-		width: 		"100%",
-		height: 	"700px",
-		hash_bookmark: true,
-		source: 	'https://docs.google.com/spreadsheet/pub?key=0AkkHH22T5QEIdF9BMkVYeUVUVHhTZDAzWmRkdzY5UHc&output=html',
-		font: 		'Bevan-PotanoSans',			//OPTIONAL FONTS
-		maptype: 	'watercolor',				//OPTIONAL MAP STYLE
-		css: 		'css/dark.css',		//OPTIONAL
-		js: 		'js/timeline.js'		//OPTIONAL
-		
-	}
-	
-</script>
-<script type="text/javascript" src="js/timeline-embed.js"></script>
+		<script type="text/javascript">
+		    var timeline_config = {
+				width: "100%",
+				height: "700",
+				source: 'https://docs.google.com/spreadsheet/pub?key=0AkkHH22T5QEIdF9BMkVYeUVUVHhTZDAzWmRkdzY5UHc&output=html',
+				css: 	'css/dark.css',	//OPTIONAL
+				js: 	'js/timeline-min.js'	//OPTIONAL
+			}
+		</script>
+		<script type="text/javascript" src="js/timeline-embed.js"></script>
 						
       <hr>
 
-<?
-	include 'footer.php';
-?>
+      <footer>
+        <p>Designed and Developed for AIESEC Chennai by <a href="https://www.facebook.com/michael.k.victor" target="_blank">Michael Kevin Victor</a> </p>
+		<script>
+	var _gaq=[['_setAccount','UA-30895937-1'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+      </footer>
 
     </div> <!-- /container -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 
 <script src="js/libs/bootstrap/bootstrap.min.js"></script>
 
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
-<script src="js/jquery.colorbox.js"></script>
 
 
 </body>
