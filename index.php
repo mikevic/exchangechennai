@@ -59,7 +59,8 @@
 		 <hr>
 		<img src="img/aiesec_chennai_logo.png" height="90" align="left" style="padding:10px">
 		<div class="fb-like" data-href="https://www.facebook.com/aiesec.chennai" data-send="true" data-layout="box_count" data-width="40" data-show-faces="true" data-colorscheme="dark" data-font="trebuchet ms"></div>
-		<iframe src="//www.facebook.com/plugins/facepile.php?href=https%3A%2F%2Fwww.facebook.com%2Faiesec.chennai&amp;action&amp;size=medium&amp;max_rows=2&amp;width=300&amp;colorscheme=dark&amp;appId=187857671261596" scrolling="no" frameborder="0" style=" border:none; overflow:hidden; width:330px; height:100px; paddding:5px;" allowTransparency="true"></iframe>   
+		<iframe src="//www.facebook.com/plugins/facepile.php?href=https%3A%2F%2Fwww.facebook.com%2Faiesec.chennai&amp;action&amp;size=medium&amp;max_rows=2&amp;width=300&amp;colorscheme=dark&amp;appId=187857671261596" scrolling="no" frameborder="0" style=" border:none; overflow:hidden; width:330px; height:100px; paddding:5px;" allowTransparency="true"></iframe> <br />
+		<img src="img/partners.png" width="100%" />
  
    <hr>
 
