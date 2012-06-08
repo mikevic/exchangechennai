@@ -22,8 +22,11 @@ $current_page =  $parts[count($parts) - 1];
 			  <li <? if($current_page == 'gcdp-ep.php'){echo 'class="active"';} ?>><a href="gcdp-ep.php">GCDP EP</a></li>
 			  <li <? if($current_page == 'gip-ep.php'){echo 'class="active"';} ?>><a href="gip-ep.php">GIP EP</a></li>
 			  <li <? if($current_page == 'exchange-experience.php'){echo 'class="active"';} ?>><a href="exchange-experience.php">Experiences Delivered</a></li>
+			  <a class="brand" href="./index.html">Bootstrap</a>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
+	
+	

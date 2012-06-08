@@ -42,7 +42,7 @@
 		    var timeline_config = {
 				width: "100%",
 				height: "700",
-				source: 'https://docs.google.com/spreadsheet/pub?key=0AkkHH22T5QEIdF9BMkVYeUVUVHhTZDAzWmRkdzY5UHc&output=html',
+				source: 'https://docs.google.com/spreadsheet/pub?key=0AkkHH22T5QEIdEJuLURNTXdZS2pKUjc3ZmFpUFdzTUE&output=html',
 				css: 	'css/dark.css',	//OPTIONAL
 				js: 	'js/timeline-min.js'	//OPTIONAL
 			}
