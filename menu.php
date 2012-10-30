@@ -3,6 +3,8 @@ $currentFile = $_SERVER["PHP_SELF"];
 $parts = Explode('/', $currentFile);
 $current_page =  $parts[count($parts) - 1];
 ?>
+	<script src="js/cufon-yui.js" type="text/javascript"></script>
+	<script src="js/fonts/chancur_400.font.js" type="text/javascript"></script>
 
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
@@ -12,7 +14,7 @@ $current_page =  $parts[count($parts) - 1];
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Exchange Chennai</a>
+          <b><a class="brand fancyfont" style="color:yellow" href="#">Exchange Chennai</a></b>
           <div class="nav-collapse">
             <ul class="nav">
               <li <? if($current_page == 'index.php'){echo 'class="active"';} ?>><a href="http://exchangechennai.in">Home</a></li>

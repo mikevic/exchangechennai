@@ -25,7 +25,14 @@
 
 	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/cufon-yui.js" type="text/javascript"></script>
+<script src="js/fonts/talkingtothemoon_400.font.js" type="text/javascript"></script>
+<script>
 
+		Cufon.replace('.fancyfont', { fontFamily: 'talkingtothemoon' });
+
+	</script>
+</head>
 </head>
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -43,12 +50,12 @@
 				width: "100%",
 				height: "700",
 				source: 'https://docs.google.com/spreadsheet/pub?key=0AkkHH22T5QEIdEJuLURNTXdZS2pKUjc3ZmFpUFdzTUE&output=html',
-				css: 	'css/dark.css',	//OPTIONAL
-				js: 	'js/timeline-min.js'	//OPTIONAL
-			}
-		</script>
-		<script type="text/javascript" src="js/timeline-embed.js"></script>
-						
+
+		
+	}
+	
+</script>
+<script type="text/javascript" src="js/storyjs-embed.js"></script>
       <hr>
 
       <footer>

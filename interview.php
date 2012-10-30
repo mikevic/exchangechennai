@@ -34,9 +34,10 @@
 	
 
     <div class="container">
-		<div id="interview-pic">
+    <div class="row">
+
 			<img src="img/interview.jpg" width="500px">
-		</div>
+
 		<div id="interview-form">
 			<div align="left">
 				We look forward to talking to you!<br />
@@ -77,11 +78,13 @@
 				</form>
 			</div>
 			
-		</div>
-				
-			
-      <hr>
 
+        </div>	
+		
+			
+</div>
+
+<hr >
 <?
 	include 'footer.php';
 ?>

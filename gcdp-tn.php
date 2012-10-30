@@ -23,7 +23,14 @@
 	 -->
 
 	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+<script src="js/cufon-yui.js" type="text/javascript"></script>
+<script src="js/fonts/talkingtothemoon_400.font.js" type="text/javascript"></script>
+<script>
 
+		Cufon.replace('.fancyfont', { fontFamily: 'talkingtothemoon' });
+
+	</script>
+</head>
 </head>
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -44,16 +51,15 @@
 		source: 	'https://docs.google.com/spreadsheet/pub?key=0AkkHH22T5QEIdFFWSndTVG5WaEtHSXBZWjJ1emNRWEE&output=html',
 		font: 		'Bevan-PotanoSans',			
 		maptype: 	'watercolor',			
-		css: 		'css/dark.css',	
-		js: 		'js/timeline.js'	
+
 		
 	}
 	
 </script>
-<script type="text/javascript" src="js/timeline-embed.js"></script>
+<script type="text/javascript" src="js/storyjs-embed.js"></script>
 <div align="center">
 <a href="interview.php"><button class="clean-gray">Set Up Interview </button></a>
-<a href="interview.php"><button class="clean-gray">Set Up Interview </button></a>
+<a href="receptionbooklet"><button class="clean-gray">Reception Booklet</button></a>
 <a href="interview.php"><button class="clean-gray">Set Up Interview </button></a>
 </div>						
       <hr>

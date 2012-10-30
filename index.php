@@ -32,6 +32,13 @@
   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=164582900258220";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<script src="js/cufon-yui.js" type="text/javascript"></script>
+<script src="js/fonts/talkingtothemoon_400.font.js" type="text/javascript"></script>
+<script>
+
+		Cufon.replace('.fancyfont', { fontFamily: 'talkingtothemoon' });
+
+	</script>
 </head>
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -49,18 +56,17 @@
 
       </div>
 	  <div id="homepage_buttons" align="center">
-	  <a href="eb.php"><button class="btn btn-inverse btn-large" style="width:185px">Contacts</button></a>
-	  <a href="gcdp-tn.php"><button class="btn btn-warning btn-large" style="width:185px">GCDP TNs</button></a>
-	  <a href="gip-tn.php"><button class="btn btn-info btn-large" style="width:185px">GIP TNs</button></a>
-	  <a href="gcdp-ep.php"><button class="btn btn-danger btn-large" style="width:185px">GCDP EPs</button></a>
-	  <a href="gip-ep.php"><button class="btn btn-primary btn-large" style="width:185px">GIP EPs</button></a>
+	  <a href="eb.php"><button class="btn btn-large" style="width:185px">Contacts</button></a>
+	  <a href="gcdp-tn.php"><button class="btn btn-large" style="width:185px">GCDP TNs</button></a>
+	  <a href="gip-tn.php"><button class="btn btn-large" style="width:185px">GIP TNs</button></a>
+	  <a href="gcdp-ep.php"><button class="btn btn-large" style="width:185px">GCDP EPs</button></a>
+	  <a href="gip-ep.php"><button class="btn btn-large" style="width:185px">GIP EPs</button></a>
 	  <a href="exchange-experience.php"><button class="btn btn-large" style="width:185px">Experiences</button></a>
 		</div>
 		 <hr>
-		<img src="img/aiesec_chennai_logo.png" height="90" align="left" style="padding:10px">
+
 		<div class="fb-like" data-href="https://www.facebook.com/aiesec.chennai" data-send="true" data-layout="box_count" data-width="40" data-show-faces="true" data-colorscheme="dark" data-font="trebuchet ms"></div>
-		<iframe src="//www.facebook.com/plugins/facepile.php?href=https%3A%2F%2Fwww.facebook.com%2Faiesec.chennai&amp;action&amp;size=medium&amp;max_rows=2&amp;width=300&amp;colorscheme=dark&amp;appId=187857671261596" scrolling="no" frameborder="0" style=" border:none; overflow:hidden; width:330px; height:100px; paddding:5px;" allowTransparency="true"></iframe> <br />
-		<img src="img/partners.png" width="100%" />
+		<iframe src="//www.facebook.com/plugins/facepile.php?href=https%3A%2F%2Fwww.facebook.com%2Faiesec.chennai&amp;action&amp;size=medium&amp;max_rows=2&amp;width=300&amp;appId=187857671261596" scrolling="no" frameborder="0" style=" border:none; overflow:hidden; width:330px; height:100px; paddding:5px;" allowTransparency="true"></iframe> <br />
  
    <hr>
 

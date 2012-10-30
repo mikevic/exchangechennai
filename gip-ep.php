@@ -23,7 +23,14 @@
 	 -->
 
 	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+<script src="js/cufon-yui.js" type="text/javascript"></script>
+<script src="js/fonts/talkingtothemoon_400.font.js" type="text/javascript"></script>
+<script>
 
+		Cufon.replace('.fancyfont', { fontFamily: 'talkingtothemoon' });
+
+	</script>
+</head>
 </head>
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -44,16 +51,15 @@
 		source: 	'https://docs.google.com/spreadsheet/pub?key=0AkkHH22T5QEIdFZ6akd4c1BJRV9feUQ4bDVqaFJaM1E&output=html',
 		font: 		'Bevan-PotanoSans',			//OPTIONAL FONTS
 		maptype: 	'watercolor',				//OPTIONAL MAP STYLE
-		css: 		'css/dark.css',		//OPTIONAL
-		js: 		'js/timeline.js'		//OPTIONAL
+
 		
 	}
 	
 </script>
-<script type="text/javascript" src="js/timeline-embed.js"></script>
+<script type="text/javascript" src="js/storyjs-embed.js"></script>
 <div align="center">
-
-Interested in an EP? Send us an <a href="mailto:mike.aiesec@gmail.com?Subject=EP%20Interested%20in%20Project">email</a>
+<br />
+<span>Interested in an EP? Send us an <a href="mailto:mike.aiesec@gmail.com?Subject=EP%20Interested%20in%20Project" target="_blank">email</a></span>
 </div>						
       <hr>
 
