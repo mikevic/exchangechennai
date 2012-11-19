@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>GCDP EP</title>
+	<title>What are you doing this Winter?</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -16,6 +16,7 @@
 	<link rel="stylesheet/less" href="less/style.less">
 	<link type="text/css" href="css/colorbox.css" rel="stylesheet" />
 	<script src="js/libs/less-1.3.0.min.js"></script>
+	
 	<!-- Use SimpLESS (Win/Linux/Mac) or LESS.app (Mac) to compile your .less files
 	to style.css, and replace the 2 lines above by this one:
 
@@ -23,6 +24,7 @@
 	 -->
 
 	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="js/cufon-yui.js" type="text/javascript"></script>
 <script src="js/fonts/talkingtothemoon_400.font.js" type="text/javascript"></script>
 <script>
@@ -43,14 +45,11 @@
     <div class="container">
 
 <div id="timeline-embed"></div>
-<script type="text/javascript">
-    var timeline_config = {
-		width: 		"100%",
-		height: 	"700",
-		hash_bookmark: true,
-		source: 	'https://docs.google.com/spreadsheet/pub?key=0AkkHH22T5QEIdC1GOUhmcWN6Z1k1WXh1NEJmSWRtS3c&output=html',
-		font: 		'Bevan-PotanoSans',			//OPTIONAL FONTS
-		maptype: 	'watercolor',				//OPTIONAL MAP STYLE
+		<script type="text/javascript">
+		    var timeline_config = {
+				width: "100%",
+				height: "700",
+				source: 'https://docs.google.com/spreadsheet/pub?key=0AkkHH22T5QEIdFF2Q0FyTjA5SzFoSlR5Q25nWjRHaFE&output=html',
 
 		
 	}
@@ -58,24 +57,29 @@
 </script>
 <script type="text/javascript" src="js/storyjs-embed.js"></script>
 <div align="center">
-<br />
-<span >Interested in an EP? Send us an <a href="mailto:mike.aiesec@gmail.com?Subject=EP%20Interested%20in%20Project" target="_blank">email</a></span>
-</div>						
+<a href="/info"><button class="clean-gray">Download Information Booklet</button></a>
+<a href="https://docs.google.com/spreadsheet/viewform?pli=1&formkey=dFRJUGI0Um5jZGRacnNHVzZiNXplSGc6MQ#gid=0"><button class="clean-gray">I am interested!</button></a>
+</div>	
       <hr>
 
-<?
-	include 'footer.php';
-?>
+      <footer>
+        <p>Designed and Developed for AIESEC Chennai by <a href="https://www.facebook.com/michael.k.victor" target="_blank">Michael Kevin Victor</a> </p>
+		<script>
+	var _gaq=[['_setAccount','UA-30895937-1'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+      </footer>
 
     </div> <!-- /container -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 
 <script src="js/libs/bootstrap/bootstrap.min.js"></script>
 
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
-<script src="js/jquery.colorbox.js"></script>
 
 
 </body>
