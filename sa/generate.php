@@ -2,19 +2,34 @@
 $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
 $name = $first_name.' '.$last_name;
-$lc_name = $_POST['lc_name'];
+$lc_name = "AIESEC Chennai";
 $position = $_POST['position'];
 $text = $_POST['text_field'];
 $age = $_POST['age'];
-move_uploaded_file($_FILES["picture"]["tmp_name"], "pictures/" . $_FILES["picture"]["name"]);
-$extension = substr($_FILES["picture"]["name"], -3);
-if($extension == 'jpg')
+$type = $_POST['assoc'];
+move_uploaded_file($_FILES["picture"]["tmp_name"], "uploaded_pictures/" . $_FILES["picture"]["name"]);
+$extension = strtolower(substr($_FILES["picture"]["name"], -3));
+if($extension == 'jpg' || $extension == 'png')
 {
 	
-	$image = imagecreatefromjpeg('source_image.jpg');
-	$save_image_name = str_replace(' ', '', $name);
-	$uploaded_picture = imagecreatefromjpeg('pictures/' . $_FILES["picture"]["name"]);
+	if ($type == 'Alumni') {
+		$image = imagecreatefromjpeg('img/case_study_source_image_alumni.jpg');	
+	} elseif ($type == 'Intern') {
+		$image = imagecreatefromjpeg('img/case_study_source_image_intern.jpg');
+	} elseif ($type == 'Member') {
+		$image = imagecreatefromjpeg('img/case_study_source_image.jpg');
+	}
 	
+	$save_image_name = str_replace(' ', '', $name);
+	
+	if($extension == 'jpg')
+	{
+		$uploaded_picture = imagecreatefromjpeg('uploaded_pictures/' . $_FILES["picture"]["name"]);
+	}
+	else
+	{
+		$uploaded_picture = imagecreatefrompng('uploaded_pictures/' . $_FILES["picture"]["name"]);
+	}
 	$uploaded_picture_width = imagesx($uploaded_picture);
 	$uploaded_picture_height = imagesy($uploaded_picture);
 
@@ -54,9 +69,22 @@ if($extension == 'jpg')
 	imagefilledrectangle($image, 0, 440, $width, 550, $rectCol);
 		
 	//Inserting "I Am An AIESECer"
+	if ($type == 'Alumni') {
+		$tag_line_font = '"I am an AIESEC Alumni"';	
+	} elseif ($type == 'Intern') {
+		$tag_line_font = '"I am an AIESEC Intern"';	
+	} elseif ($type == 'Member') {
+		$tag_line_font = '"I am an AIESECer"';	
+	}
 	$aiesecer_posY = 515;
-	$aiesecer_posX = 400;
-	imagettftext($image, 30, 0, $aiesecer_posX, $aiesecer_posY, $textCol, $aiesecer_font, '"I Am An AIESECer!"');
+	if ($type == 'Alumni') {
+		$aiesecer_posX = 340;
+	} elseif ($type == 'Intern') {
+		$aiesecer_posX = 340;
+	} elseif ($type == 'Member') {
+		$aiesecer_posX = 400;	
+	}
+	imagettftext($image, 30, 0, $aiesecer_posX, $aiesecer_posY, $textCol, $aiesecer_font, $tag_line_font);
 		
 	//Inserting Name
 	$name_posY = 465;

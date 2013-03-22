@@ -2,8 +2,8 @@
 $filename = $_GET['filename'];
 require_once('php-sdk/facebook.php');
 $config = array(
-    'appId' => '385075144906203',
-    'secret' => 'e0efd5d6d19581837bd33a20a3e7843d',
+    'appId' => '194892497319911',
+    'secret' => 'f872cff514c48f0bb2eb874fd568ef14',
 	'fileUpload' => true,
   );
 $facebook = new Facebook($config);
@@ -27,23 +27,31 @@ $message = 'I am an AIESECer!';
 
 	<meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet/less" href="../less/style.less">
-	<link type="text/css" href="../css/colorbox.css" rel="stylesheet" />
-	<script src="../js/libs/less-1.3.0.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="js/jquery.jqEasyCharCounter.min.js" type="text/javascript"></script>
-	<!-- Use SimpLESS (Win/Linux/Mac) or LESS.app (Mac) to compile your .less files
-	to style.css, and replace the 2 lines above by this one:
-
-	<link rel="stylesheet" href="less/style.css">
-	 -->
-	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+    
+	<!-- start: Facebook Open Graph -->
+	<meta property="og:title" content=""/>
+	<meta property="og:description" content=""/>
+	<meta property="og:type" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:image" content=""/>
+	<!-- end: Facebook Open Graph -->
+    
+    <!-- start: CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/parallax-slider.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+	<!-- end: CSS -->
 
     
 </head>
 <body>
     <div class="container">
-    <h4>Sucess - Your case study has been generated!</h4>
+    <div class="title"><h2>Sucess - Your case study has been generated!</h2></div>
     <hr>
         <div class="row">
       		<div class="span6"><img src="generated_case_studies/<? echo $filename; ?>.jpg"></div>
@@ -104,13 +112,27 @@ $message = 'I am an AIESECer!';
 				}
 				  }
 				?>
+
             <h4>Problems?</h4>
             
             Feel free to send me an <a href="mailto:michael.victor@aiesec.net?Subject=Case%20Study%20Generator">email</a>!
             
             </div>
+	</div>
     </div>
- 
+ <!-- start: Java Script -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery-1.8.2.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/jquery.imagesloaded.js"></script>
+<script src="js/flexslider.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/jquery.cslider.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/fancybox.js"></script>
+<script defer src="js/custom.js"></script>
+<!-- end: Java Script -->
 </body>
 
 </html>
